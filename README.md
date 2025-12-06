@@ -23,6 +23,31 @@ PINTO0309 氏が管理している “model zoo”（モデル集）で、様々
 ## 参考にした
 [PINTO model zooの歩き方 ~ Tour of PINTO model zoo ~](https://zenn.dev/karaage0703/articles/a4973dc094ee1c)
 
+
+## 何がある？
+###  Image Classification
+
+### 2D Object Detection
+
+### 3D Object Detection
+### 2D/3D Face Detection
+### 2D/3D Hand Detection
+### 2D/3D Human/Animal Pose Estimation
+### Depth Estimation from Monocular/Stereo Images
+### Semantic Segmentation
+### Anomaly Detection
+### Artistic
+### Super Resolution
+### Sound Classifier
+### Natural Language Processing
+### Text Recognition
+### Action Recognition
+### Inpainting
+### GAN
+### Transformer
+### Others
+
+
 ## ROS2で使う
 ### EdgeYOLO-ROS
 [EdgeYOLO-ROS](https://github.com/fateshelled/EdgeYOLO-ROS)は、モデルを PINTO_model_zoo からダウンロードして使う前提 で作られた ROS2 パッケージです。
