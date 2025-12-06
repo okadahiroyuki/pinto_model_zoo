@@ -33,6 +33,7 @@ PINTO0309 氏が管理している “model zoo”（モデル集）で、様々
 ### 2D/3D Face Detection
 ### 2D/3D Hand Detection
 [033_Hand_Detection_and_Tracking/](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/033_Hand_Detection_and_Tracking)
+[hand-gesture-recognition-using-onnx](https://github.com/PINTO0309/hand-gesture-recognition-using-onnx)
 
 ### 2D/3D Human/Animal Pose Estimation
 ### Depth Estimation from Monocular/Stereo Images
