@@ -23,13 +23,22 @@ PINTO0309 氏が管理している “model zoo”（モデル集）で、様々
 
 ## ROS2で使う
 ### EdgeYOLO-ROS
-[EdgeYOLO-ROS](https://github.com/fateshelled/EdgeYOLO-ROS)
+[EdgeYOLO-ROS](https://github.com/fateshelled/EdgeYOLO-ROS)は、モデルを PINTO_model_zoo からダウンロードして使う前提 で作られた ROS2 パッケージです。
 
-EdgeYOLO-ROS は、モデルを PINTO_model_zoo からダウンロードして使う前提 で作られた ROS2 パッケージです。
+
 
 ### YOLOX-ROS
-[YOLOX-ROS](https://github.com/Ar-Ray-code/YOLOX-ROS)
+[YOLOX-ROS](https://github.com/Ar-Ray-code/YOLOX-ROS)はROS2 + ONNX(cuDNN) /TFLite/ TensorRT でアンカーフリーな物体検出をするためのパッケージで、PINTO_model_zoo 由来の YOLOX モデルを流用しやすい。
 
-ROS2 + ONNX/TFLite/ TensorRT で物体検出をするためのパッケージで、PINTO_model_zoo 由来の YOLOX モデルを流用しやすい
+[Ar-Ray-code/YOLOX-ROS](https://github.com/Ar-Ray-code/YOLOX-ROS)さんのAr-Ray-code/YOLOX-ROS:humbleをフォークして修正しました。
+
+[YOLOX-ROS](https://github.com/okadahiroyuki/YOLOX-ROS.git)をご覧ください。
+
+[Dockerで動かす](https://github.com/okadahiroyuki/YOLOX-ROS/tree/humble/yolox_ros_cpp/docker/onnxruntime)のが楽だと思います。
+
+
+
+
+
 
 
