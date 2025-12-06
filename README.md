@@ -20,10 +20,18 @@ PINTO0309 氏が管理している “model zoo”（モデル集）で、様々
 
 - 実習・プロトタイピングの時間短縮：例えば教育用途（あなたのように大学で機械学習・AIを教えている方）だと、「すぐ動かせるモデル」があることで講義／演習設計がラクになります。
 
+## 参考にした
+[PINTO model zooの歩き方 ~ Tour of PINTO model zoo ~](https://zenn.dev/karaage0703/articles/a4973dc094ee1c)
 
 ## ROS2で使う
 ### EdgeYOLO-ROS
 [EdgeYOLO-ROS](https://github.com/fateshelled/EdgeYOLO-ROS)は、モデルを PINTO_model_zoo からダウンロードして使う前提 で作られた ROS2 パッケージです。
+
+
+
+#### weights
+[356_EdgeYOLO](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/356_EdgeYOLO)から一括ダウンロードできます。
+
 
 
 
@@ -36,7 +44,7 @@ PINTO0309 氏が管理している “model zoo”（モデル集）で、様々
 
 [Dockerで動かす](https://github.com/okadahiroyuki/YOLOX-ROS/tree/humble/yolox_ros_cpp/docker/onnxruntime)のが楽だと思います。
 
-### weights
+#### weights
 ONNXモデルは[YOLOX公式リポジトリ](https://github.com/Megvii-BaseDetection/YOLOX/tree/main/demo/ONNXRuntime) で公開されています。
 
 - YOLOX-Nano	0.91M	1.08	416x416	25.8	[github](https://github.com/Megvii-BaseDetection/YOLOX/tree/main/demo/ONNXRuntime#:~:text=25.8-,github,-YOLOX%2DTiny)
