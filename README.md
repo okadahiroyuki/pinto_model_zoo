@@ -36,7 +36,20 @@ PINTO0309 氏が管理している “model zoo”（モデル集）で、様々
 
 [Dockerで動かす](https://github.com/okadahiroyuki/YOLOX-ROS/tree/humble/yolox_ros_cpp/docker/onnxruntime)のが楽だと思います。
 
+### weights
+ONNXモデルは[YOLOX公式リポジトリ](https://github.com/Megvii-BaseDetection/YOLOX/tree/main/demo/ONNXRuntime) で公開されています。
 
+- YOLOX-Nano	0.91M	1.08	416x416	25.8	[github](https://github.com/Megvii-BaseDetection/YOLOX/tree/main/demo/ONNXRuntime#:~:text=25.8-,github,-YOLOX%2DTiny)
+- YOLOX-Tiny	5.06M	6.45	416x416	32.8	[github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_tiny.onnx)
+- YOLOX-S	9.0M	26.8	640x640	40.5	[github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_s.onnx)
+- YOLOX-M	25.3M	73.8	640x640	47.2	[github](https://github.com/Megvii-BaseDetection/YOLOX/tree/main/demo/ONNXRuntime#:~:text=47.2-,github,-YOLOX%2DL)
+- YOLOX-L	54.2M	155.6	640x640	50.1	[github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_l.onnx)
+- YOLOX-Darknet53	63.72M	185.3	640x640	48.0	[github](https://github.com/Megvii-BaseDetection/YOLOX/tree/main/demo/ONNXRuntime#:~:text=48.0-,github,-YOLOX%2DX)
+- YOLOX-X	99.1M	281.9	640x640	51.5	[github](https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_x.onnx)
+```
+./src/YOLOX-ROS/weights/onnx/download.bash all
+```
+で一括ダウンロードできます。
 
 
 
